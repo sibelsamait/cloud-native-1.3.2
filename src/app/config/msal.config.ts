@@ -3,13 +3,13 @@ IPublicClientApplication,
 PublicClientApplication,
 InteractionType,
 LogLevel,
-BrowserCacheLocation,
+BrowserCacheLocation,  
 } from '@azure/msal-browser';
 import {
 MsalGuardConfiguration,
 MsalInterceptorConfiguration,
 } from '@azure/msal-angular';
-import { environment } from '/workspaces/cloud-native-1.3.2/src/environment/environment.ts';
+import { environment } from '/workspaces/cloud-native-1.3.2/src/environment/environment';
 
 /**
 * Crea la instancia de PublicClientApplication que MSAL Angular registrará
